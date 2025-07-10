@@ -1,1 +1,2 @@
-ln -s ./actions_updategeoip.conf /usr/local/opnsense/service/conf/actions.d/actions_updategeoip.conf
+echo Linking "`pwd`/actions_updategeoip.conf" "->" "/usr/local/opnsense/service/conf/actions.d/actions_updategeoip.conf"
+ln -s "`pwd`/actions_updategeoip.conf" /usr/local/opnsense/service/conf/actions.d/actions_updategeoip.conf
