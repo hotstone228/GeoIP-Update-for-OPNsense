@@ -1,0 +1,1 @@
+ln -s ./actions_updategeoip.conf /usr/local/opnsense/service/conf/actions.d/actions_updategeoip.conf
