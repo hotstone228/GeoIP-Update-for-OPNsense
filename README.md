@@ -2,6 +2,10 @@
 
 Update GeoIP data on OPNsense without using Maxmind's account.
 
+## Linking Script
+
+This repository includes a helper script: [`link.sh`](./link.sh). This script can be used to create symbolic links or assist with deployment steps. Check the script for details on its usage and adapt it as needed for your environment.
+
 ## Configuration
 
 The configuration file for this tool is [`actions_updategeoip.conf`](./actions_updategeoip.conf). Edit this file to customize update behavior or integration with OPNsense.
